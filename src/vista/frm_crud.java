@@ -524,10 +524,8 @@ private void select_datos(){
         this.txt_apellidos.setText(tbl_empleadopuesto.getValueAt(fila, 3).toString());
         this.txt_direccion.setText(tbl_empleadopuesto.getValueAt(fila, 4).toString());
         this.txt_telefono.setText(tbl_empleadopuesto.getValueAt(fila, 5).toString());
-        this.txt_fn.setText(tbl_empleadopuesto.getValueAt(fila, 6).toString());
-        String puestoSeleccionado = tbl_empleadopuesto.getValueAt(fila, 7).toString(); // Suponiendo que el ID del puesto está en la columna 7
-
-        // Establecer el puesto en el JComboBox
+        this.txt_fn.setText(tbl_empleadopuesto.getValueAt(fila, 6).toString());//esta es la rama puesto desarrollo
+        String puestoSeleccionado = tbl_empleadopuesto.getValueAt(fila, 7).toString(); 
         lista_puestos.setSelectedItem(puestoSeleccionado);
 }
     private void btn_agregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_agregarActionPerformed

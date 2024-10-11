@@ -10,7 +10,7 @@ package modelo;
  */
 abstract class Persona {
     
-    private String nombres, apellidos, direccion, telefono, fecha_nacimiento;
+    private String nit, nombres, apellidos, direccion, telefono, fecha_nacimiento;
     
     public Persona(){}
     public Persona(String nombres, String apellidos, String direccion, String telefono, String fecha_nacimiento) {
